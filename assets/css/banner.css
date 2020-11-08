@@ -1,0 +1,132 @@
+.banner {
+	/* width: 100%; */
+	/* margin: 30px auto; */
+	min-width: 100%;
+	position: relative;
+	overflow: hidden;
+	height: 470px;
+}
+
+ul.banner-slider {
+	transition: all 1s ease-out;
+	width: 100%;
+	height: 100%;
+	font-size: 0;
+	white-space: nowrap;
+	transform: translateX(-100%);
+}
+
+ul.banner-slider>li {
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+}
+
+ul.banner-slider>li>a {
+	display: block;
+	height: 100%;
+}
+
+ul.banner-slider>li>a>img {
+	width: 100%;
+	height: 100%;
+}
+
+/* 指示器 */
+ul.banner-indicator {
+	position: absolute;
+	left: 50%;
+	bottom: 10px;
+	/* 变形----平移技术 */
+	transform: translateX(-50%);
+}
+
+ul.banner-indicator>li {
+	float: left;
+	width: 15px;
+	height: 15px;
+	background-color: rgb(0,0,0,0.5);
+	border-radius: 50%;
+	overflow: hidden;
+	margin: 0 10px;
+}
+
+ul.banner-indicator>li::before {
+	content: "";
+	width: 0;
+	height: 100%;
+	float: right;
+	background-color: red;	
+}
+
+ul.banner-indicator>li.active:before {
+	width: 100%;
+	float: left;
+}
+
+/* 耳朵图 */
+span.banner-prev,span.banner-next {
+	width: 50px;
+	height: 80px;
+	background-color: rgba(0,0,0,0.3);
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	cursor: pointer;
+	box-sizing: border-box;
+}
+.icon-arrow-left,.icon-arrow-right {
+	font-size: 50px;
+	display: inline-block;
+	color: white;
+	vertical-align: middle;
+	padding-top: 14px;
+}
+
+span.banner-prev {
+	left: 0%;
+}
+
+span.banner-next {
+	right: 0%;
+}
+
+span.banner-prev:hover,span.banner-next:hover {
+	background-color: rgba(0,0,0,0.6);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

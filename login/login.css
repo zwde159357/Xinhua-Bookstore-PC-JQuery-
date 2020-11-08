@@ -1,0 +1,372 @@
+/* 头部 */
+.login-top {
+	height: 95px;
+}
+
+.login-top>.wrap {
+	padding: 20px;
+}
+
+.login-top>.wrap>span {
+	display: inline-block;
+	line-height: 50px;
+	font-size: 32px;
+	vertical-align: bottom;
+	color: #666666;
+	margin-left: 50px;
+}
+
+/* 中部 */
+.login-middle {
+	width: 100%;
+	/* height: 500px; */
+	position: relative;
+}
+
+.login-middle>.background {}
+
+.login-middle>.background>img {
+	width: 100%;
+}
+
+.login-middle>.content {
+	/* height: 480px; */
+	width: 480px;
+	background-color: white;
+	position: absolute;
+	right: 90px;
+	top: 15px;
+}
+
+.login-middle>.content>.content-top {
+	box-sizing: border-box;
+	padding: 0 48px;
+	border-bottom: 1px solid #f7f7f7;
+}
+
+.login-middle>.content>.content-top>ul {
+	font-size: 0;
+}
+
+.login-middle>.content>.content-top>ul>li {
+	display: inline-block;
+	width: 50%;
+}
+
+.login-middle>.content>.content-top>ul>li:nth-child(1) {
+	text-align: left;
+}
+
+.login-middle>.content>.content-top>ul>li:nth-child(2) {
+	text-align: right;
+}
+
+
+.login-middle>.content>.content-top>ul>li>a {
+	line-height: 64px;
+	font-size: 24px;
+	color: #1E1E1E;
+}
+
+.login-middle>.content>.content-top>ul>li.active>a {
+	color: #C62E2D;
+}
+
+
+.login-middle>.content>.content-top>ul>li>a:hover {
+	color: #C62E2D;
+}
+
+.login-middle>.content>.content-bottom {
+	box-sizing: border-box;
+	padding: 45px 48px 0;
+	position: relative;
+}
+
+.login-middle>.content>.content-bottom>.login-pwd.login {
+	position: relative;
+	display: none;
+}
+
+.login-middle>.content>.content-bottom>.login-pwd.login.active {
+	display: block;
+}
+
+.login-middle>.content>.content-bottom>.login-pwd>input {
+	display: block;
+	margin-bottom: 24px;
+	padding: 10px 0 10px 40px;
+	font-size: 14px;
+	border: 1px solid #ddd;
+	box-sizing: border-box;
+	width: 380px;
+	height: 60px;
+	/* outline: none; */
+}
+
+.login-middle>.content>.content-bottom>.login-pwd>input.phone {}
+
+.login-middle>.content>.content-bottom>.login-pwd>input.phone {}
+
+.login-middle>.content>.content-bottom>.login-pwd>a {
+	font-size: 12px;
+}
+
+.login-middle>.content>.content-bottom>.login-pwd>a.forget-pwd {
+	color: #999999;
+}
+
+.login-middle>.content>.content-bottom>.login-pwd>a.register {
+	float: right;
+	color: #C62E2D;
+}
+
+.login-middle>.content>.content-bottom>.login-pwd>span.btn-login-pwd {
+	display: block;
+	width: 100%;
+	text-align: center;
+	margin-top: 24px;
+	font-size: 14px;
+	height: 40px;
+	padding: 10px 10px 0;
+	box-sizing: border-box;
+	background-color: #C62E2D;
+	color: white;
+	cursor: pointer;
+}
+
+.login-middle>.content>.content-bottom>.login-pwd>i.ren {
+	position: absolute;
+	left: 12px;
+	top: 20px;
+	font-size: 16px;
+}
+
+.login-middle>.content>.content-bottom>.login-pwd>i.mima {
+	position: absolute;
+	left: 12px;
+	top: 105px;
+	font-size: 16px;
+}
+
+.login-middle>.content>.content-bottom>.login-pwd>i.jianpan {
+	position: absolute;
+	left: 332px;
+	top: 96px;
+	font-size: 32px;
+}
+
+
+.login-middle>.content>.content-bottom>.login-test.login {
+	position: relative;
+	display: none;
+}
+
+.login-middle>.content>.content-bottom>.login-test.login.active {
+	display: block;
+}
+
+.login-middle>.content>.content-bottom>.login-test>input {
+	display: block;
+	margin-bottom: 24px;
+	padding: 10px 0 10px 40px;
+	font-size: 14px;
+	border: 1px solid #ddd;
+	box-sizing: border-box;
+	width: 380px;
+	height: 50px;
+}
+
+.login-middle>.content>.content-bottom>.login-test>input.picture-test {
+	width: 270px;
+	display: inline-block;
+}
+
+.login-middle>.content>.content-bottom>.login-test>.image-warpper {
+	display: inline-block;
+	float: right;
+	width: 110px;
+	height: 50px;
+	border: 1px solid #DDDDDD;
+	box-sizing: border-box;
+	margin-right: 4px;
+	cursor: pointer;
+}
+
+.login-middle>.content>.content-bottom>.login-test>.image-warpper>img {
+	width: 100%;
+	height: 100%;
+}
+
+.login-middle>.content>.content-bottom>.login-test>input.test {
+	display: inline-block;
+	width: 270px;
+}
+
+.login-middle>.content>.content-bottom>.login-test>span.test-number {
+	display: inline-block;
+	width: 110px;
+	height: 50px;
+	box-sizing: border-box;
+	border: 1px solid #DDDDDD;
+	float: right;
+	margin-right: 4px;
+	vertical-align: middle;
+	padding-top: 14px;
+	line-height: 18px;
+}
+
+
+.login-middle>.content>.content-bottom>.login-test>input.protocol {
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	margin: 0;
+	vertical-align: middle;
+}
+
+.login-middle>.content>.content-bottom>.login-test>span {
+	vertical-align: middle;
+	padding-left: 10px;
+}
+
+.login-middle>.content>.content-bottom>.login-test>span>a {
+	color: blue;
+}
+
+.login-middle>.content>.content-bottom>.login-test>span.btn-login-phone {
+	display: block;
+	width: 100%;
+	text-align: center;
+	margin-top: 24px;
+	font-size: 14px;
+	height: 40px;
+	padding: 10px 10px 0;
+	box-sizing: border-box;
+	background-color: #C62E2D;
+	color: white;
+	cursor: pointer;
+}
+
+.login-middle>.content>.content-bottom>.login-test>i.ren {
+	position: absolute;
+	left: 12px;
+	top: 16px;
+	font-size: 16px;
+}
+
+.login-middle>.content>.content-bottom>.login-test>i.mima {
+	position: absolute;
+	left: 12px;
+	top: 90px;
+	font-size: 16px;
+}
+
+.login-middle>.content>.content-bottom>.login-test>i.jianpan {
+	position: absolute;
+	left: 12px;
+	top: 165px;
+	font-size: 16px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.login-middle>.content>.content-bottom>span.or {
+	margin-top: 10px;
+	display: block;
+	text-align: center;
+}
+
+.login-middle>.content>.content-bottom>.icon {
+	margin-top: 10px;
+	width: 100%;
+	height: 44px;
+	padding: 0 90px;
+	box-sizing: border-box;
+}
+
+.login-middle>.content>.content-bottom>.icon>i {
+	font-size: 32px;
+	z-index: 9999;
+	width: 100px;
+	height: 110px;
+}
+
+.login-middle>.content>.content-bottom>.icon>i.iconfont {
+	width: 100px;
+	height: 110px;
+	font-size: 32px;
+}
+
+.login-middle>.content>.content-bottom>.icon>a>i {
+	font-size: 32px;
+	color: red;
+}
+
+.login-middle>.content>.content-bottom>.icon>a>i.weixin {
+	margin-right: 40px;
+}
+
+.login-middle>.content>.content-bottom>.icon>a>i.qq {
+	font-size: 39.25px;
+	margin-right: 36px;
+}
+
+.login-middle>.content>.content-bottom>.icon>a>i.weibo {
+	font-size: 39.25px;
+}
+
+/* 页脚 */
+.login-footer {
+	height: 140px;
+	margin-top: 65px;
+}
+
+.login-footer>.content {
+	padding-top: 120px;
+	text-align: center;
+}
+
+.login-footer>.content>span {
+	display: inline-blcok;
+	height: 40px;
+	line-height: 40px;
+	padding-bottom: 100px;
+}
+
+
+
+
+
+
+
+
+

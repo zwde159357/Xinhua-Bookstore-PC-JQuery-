@@ -1,0 +1,549 @@
+body {
+	background-color: rgba(247,247,247);
+}
+
+.personal-top {
+	width: 100%;
+	position: fixed;
+	left: 0;
+	top: 0;
+	z-index: 99;
+}
+
+body {
+	background-color: rgba(240,243,239);
+}
+
+/* 页首 */
+.personal-top>.top {
+	background-color: rgb(245,245,245);
+	height: 30px;
+	position: relative;
+}
+
+.personal-top>.top>.top-mid {
+	font-size: 12px;
+	line-height: 18px;
+	color: #1E1E1E;
+}
+
+.personal-top>.top>.top-mid>.top-mid-left {
+	font-size: 12px;
+	padding-top: 6px;
+	display: inline-block;
+}
+
+.personal-top>.top>.top-mid>span {}
+
+.personal-top>.top>.top-mid>a {}
+
+
+.personal-top>.top>.top-mid>ul {
+	display: inline-block;
+	width: 390px;
+	height: 30px;
+	font-size: 0;
+	float: right;
+	overflow: hidden;
+}
+
+.personal-top>.top>.top-mid>ul>li {
+	display: inline-block;
+	width: 20%;
+	font-size: 12px;
+	box-sizing: border-box;
+    padding: 0 10px 1px 15px;
+    margin: 9px 0 0px;
+    border-right: 1px solid #DDD;
+	cursor:  pointer;
+}
+
+.personal-top>.top>.top-mid>ul>li:nth-child(2) {
+	position: relative;
+}
+
+.personal-top>.top>.top-mid>ul>li>a { color: #1E1E1E; }
+
+.personal-top>.top>.top-mid>ul>li>a:hover { color: red; }
+
+.personal-top>.top>.top-mid>ul>li:nth-child(2)>a>i{
+	position: absolute;
+	left: 2px;
+	top: 0.5px;
+	font-size: 12px;
+}
+
+
+.personal-top>.bottom {
+	height: 72px;
+	background-color: #C62E2D;
+	box-sizing: border-box;
+	padding-top: 24px;
+}
+
+.personal-top>.bottom>.top-title-c {
+	
+}
+
+.personal-top>.bottom>.top-title-c>a {
+	vertical-align: middle;
+	margin-right: 44px;
+}
+
+.personal-top>.bottom>.top-title-c>a>img {
+	height: 45px;
+}
+
+.personal-top>.bottom>.top-title-c>ul {
+	vertical-align: middle;
+	display: inline-block;
+	
+}
+
+.personal-top>.bottom>.top-title-c>ul>li {
+	display: inline-block;
+	width: 80px;
+	text-align: center;
+	font-size: 18px;
+	line-height: 18px;
+}
+
+.personal-top>.bottom>.top-title-c>ul>li>a {
+	color: white;
+}
+
+.personal-top>.bottom>.top-title-c>ul>li>a:hover {
+	color: gold;
+}
+
+.personal-top>.bottom>.top-title-c>.top-title-mid {
+	display: inline-block;
+	margin-left: 280px;
+	margin-right: 10px;
+}
+
+.personal-top>.bottom>.top-title-c>.top-title-mid>input.search-input {
+	width: 238px;
+	border: 1px solid #DFDFDF;
+	height: 32px;
+	font-size: 14px;
+	line-height: 32px;
+	padding: 0 0 0 10px;
+	vertical-align: middle;
+	outline: none;
+}
+
+.personal-top>.bottom>.top-title-c>.top-title-mid>.search {
+		display: inline-block;
+	    cursor: pointer;
+		background-color: #DFDFDF;
+	    border: 1px solid #c62f2d;
+		box-sizing: border-box;
+		margin-left: -5px;
+		width: 46px;
+		height: 36px;
+		
+		text-align: center;
+		vertical-align: middle;
+		border-left: none;
+}
+
+.personal-top>.bottom>.top-title-c>.top-title-mid>.icon-search {
+	color: white;
+	box-sizing: border-box;
+	padding-top: 10px;
+	font-size: 14px;
+	line-height: 14px;
+}
+
+.personal-top>.bottom>.top-title-c>.top-title-right {
+	float: right;
+	border: 1px solid #DDD;
+	margin-right: 40px;
+	margin-top: 8px;
+	background-color: white;
+}
+
+.personal-top>.bottom>.top-title-c>.top-title-right>a {
+	cursor: pointer;
+	font-size: 14px;
+	line-height: 30px;
+	margin: 2px 2px 2px 4px;
+}
+
+.personal-top>.bottom>.top-title-c>.top-title-right>a>span.bag {
+		color: red;
+}
+
+.personal-top>.bottom>.top-title-c>.top-title-right>a>span.icon-arrow-right {
+	font-size: 14px; 
+	padding: 0;
+}
+
+.personal-top>.bottom>.top-title-c>.top-title-right>a>span {
+	color: #666;
+	margin: 0 2px;
+}
+
+
+/* 内容 */
+.personal-content {
+	padding-top: 86px;
+}
+
+.personal-content>.nav {
+	display: inline-block;
+	width: 200px;
+	padding-top: 16px;
+	margin-bottom: 60px;
+}
+
+.personal-content>.nav>ul {
+	width: 100%;
+}
+
+.personal-content>.nav>ul>li {
+	width: 100%;
+	padding-top: 20px;
+	box-sizing: border-box;
+	
+}
+
+.personal-content>.nav>ul>li>span {
+	line-height: 34px;
+	color: #333;
+	padding-left: 24px;
+	font-size: 18px;
+}
+
+.personal-content>.nav>ul>li>ul {}
+
+.personal-content>.nav>ul>li>ul>li {
+	line-height: 30px;
+	font-size: 16px;
+	color: #666;
+	cursor: pointer;
+	padding-left: 24px;
+}
+
+.personal-content>.nav>ul>li>ul>li.active {
+	color: gold;
+	border-left: 2px solid #C62E2D;
+	background-color: #1f2532;
+}
+
+.personal-content>.nav>ul>li>ul>li:hover {
+	color: gold;
+	background-color: #1f2532;
+}
+
+.personal-content>.content {
+	padding-top: 22px;
+	display: inline-block;
+	width: 1000px;
+	float: right;
+	background-color: rgba(240,243,239);
+}
+
+
+
+a.btn-default {}
+
+a.btn-default:before {
+	content: '设置默认地址';
+}
+
+a.btn-default.default:before {
+	content: '默认地址';
+}
+
+.address-top {
+	width: 1000px;
+}
+
+.address-top>h3 {
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 18px;
+	color: #1E1E1E;
+	margin: 1em 0;
+}
+
+.address-content-wrapper {
+	width: 1000px;
+	height: 500px;
+	background-color: white;
+	padding: 12px;
+	position: relative;
+}
+
+.address-content-wrapper.hidden {}
+
+.address-content-wrapper>.address-content {
+	height: 100%;
+}
+
+.address-content-wrapper>.address-content>span {
+	display: block;
+	width: 90px;
+	height: 32px;
+	background-color: #C62E2D;
+	color: white;
+	font-size: 12px;
+	line-height: 18px;
+	text-align: center;
+	padding-top: 10px;
+	cursor: pointer;
+	margin-bottom: 24px;
+}
+
+/* 当没有地址时 */
+.address-content-wrapper>.address-content>.address-empty {
+	display: none;
+	text-align: center;
+	margin-top: 60px;
+}
+
+.address-content-wrapper>.address-content>.address-empty.show {
+	display: block;
+}
+
+.address-content-wrapper>.address-content>.address-empty>i {
+	display: block;
+	font-size: 100px;
+}
+
+.address-content-wrapper>.address-content>.address-empty>span {
+	font-size: 14px;
+	margin-top: 60px;
+}
+
+/* 当有地址时 */
+.address-content-wrapper>.address-content>.address-display {
+	display: none;
+}
+
+.address-content-wrapper>.address-content>.address-display.show {
+	display: block;
+}
+
+.address-content-wrapper>.address-content>.address-display>ul {
+	width: 100%;
+}
+
+.address-content-wrapper>.address-content>.address-display>ul>li {
+	height: 88px;
+	border: 4px dashed #DFDFDF;
+	margin-bottom: 20px;
+	font-size: 12px;
+	color: #666666;
+	box-sizing: border-box;
+	padding: 15px 0 15px 20px;
+	position: relative;
+} 
+
+.address-content-wrapper>.address-content>.address-display>ul>li.active {
+	border-color: red; 
+}
+
+.address-content-wrapper>.address-content>.address-display>ul>li>h3 {
+	display: inline-block;
+	margin-right: 10px;
+}
+
+.address-content-wrapper>.address-content>.address-display>ul>li>a.btn-default {
+	display: inline-block;
+	line-height: 24px;
+	height: 24px;
+	background-color: #C62E2D;
+	color: white;
+	padding: 0 10px;
+}
+
+.address-content-wrapper>.address-content>.address-display>ul>li>p {
+	line-height: 28px;
+	color: #666666;
+}
+
+.address-content-wrapper>.address-content>.address-display>ul>li>span.btn-update {
+	position: absolute;
+	top: 32px;
+	right: 250px;
+	display: inline-block;
+	line-height: 24px;
+	height: 24px;
+	background-color: #C62E2D;
+	color: white;
+	padding: 0 10px;
+	cursor: pointer;
+}
+
+.address-content-wrapper>.address-content>.address-display>ul>li>span.btn-remove {
+	position: absolute;
+	top: 32px;
+	right: 200px;
+	display: inline-block;
+	line-height: 24px;
+	height: 24px;
+	background-color: #C62E2D;
+	color: white;
+	padding: 0 10px;
+	cursor: pointer;
+}
+
+.address-content-wrapper>.address-edit {
+	position: absolute;
+	left: 120px;
+	top: 100px;
+	width: 800px;
+	background-color: wheat;
+	display: none;
+	z-index: 100;
+}
+
+.address-content-wrapper>.address-edit.show {
+	display: block;
+}
+
+
+.address-content-wrapper>.address-edit>.address-edit-top {
+	color: #1E1E1E;
+	padding: 15px 22px;
+	font-size: 12px;
+	line-height: 18px;
+	border-bottom: 1px solid rgba(0,0,0,0.9);
+}
+
+.address-content-wrapper>.address-edit>.address-edit-top>span {
+	display: inline-block;
+}
+
+.address-content-wrapper>.address-edit>.address-edit-top>i {
+	float: right;
+	margin-top: -16px;
+	cursor: pointer;
+}
+
+.address-content-wrapper>.address-edit>form.address {
+	padding: 24px;
+	min-height: 200px;
+	font-size: 12px;
+	line-height: 18px;
+	color: #1E1E1E;
+}
+
+.address-content-wrapper>.address-edit>form.address>.form-item-wrapper {
+	margin-bottom: 16px;
+	height: 32px;
+	display: block;
+}
+
+.address-content-wrapper>.address-edit>form.address>.form-item-wrapper>label {
+	width: 6em;
+	text-align: right;
+	display: inline-block;
+	margin-right: 15px;
+	color: #666666;
+}
+
+.address-content-wrapper>.address-edit>form.address>.form-item-wrapper>input {
+	width: 160px;
+	height: 32px;
+	padding: 7px 10px;
+	line-height: 18px;
+	border: 1px solid #DDDDDD;
+	border-radius: 4px;
+	color: #666666;
+	outline: none;
+	box-sizing: border-box;
+}
+
+.address-content-wrapper>.address-edit>form.address>.form-item-wrapper>i {
+	font-size: 8px;
+	margin-left: 10px;
+	margin-right: 4px;
+}
+
+.address-content-wrapper>.address-edit>form.address>.form-item-wrapper>span {
+	color: #666666;
+}
+
+.address-content-wrapper>.address-edit>form.address>.form-item-wrapper.end {
+	
+	border-top: 1px solid rgba(0,0,0,0.9);
+	position: relative;
+}
+
+.address-content-wrapper>.address-edit>form.address>.form-item-wrapper.end:before {
+	content: '';
+	position: absolute;
+	left: -24px;
+	top: -1px;
+	width: 24px;
+	height: 24px;
+	border-top: 1px solid rgba(0,0,0,0.9);
+}
+
+.address-content-wrapper>.address-edit>form.address>.form-item-wrapper.end::after {
+	content: '';
+	position: absolute;
+	right: -24px;
+	top: -1px;
+	width: 24px;
+	height: 24px;
+	border-top: 1px solid rgba(0,0,0,0.9);
+}
+
+.address-content-wrapper>.address-edit>form.address>.form-item-wrapper.end>span {
+	display: inline-block;
+	line-height: 28px;
+	height: 28px;
+	font-size: 18px;
+	background-color: #C62E2D;
+	color: white;
+	padding: 5px 20px;
+	cursor: pointer;
+	margin: 15px 0;
+	vertical-align: baseline;
+}
+
+.address-content-wrapper>.address-edit>form.address>.form-item-wrapper>span.btn-save {
+	margin-left: 580px;
+	margin-right: 10px;
+}
+
+.address-content-wrapper>.address-edit>form.address>.form-item-wrapper>span.btn-close {}
+	
+.curtain {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 880px;
+	background-color: rgba(113,113,113,0.5);
+	z-index: 99;
+	display: none;
+}
+
+.curtain.active {
+	display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

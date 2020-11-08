@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<link rel="stylesheet" href="../font/iconfont.css" />
+		<link rel="stylesheet" href="../assets/css/public.css">
+		<link rel="stylesheet" href="../assets/css/reset.css">
+		<link rel="stylesheet" href="list.css">
+	</head>
+	<body>
+		<!-- 页首 -->
+		<div class="top tonglan">
+			<div class="top-mid w">
+				<div class="top-mid-left v-middle"></div>
+				<ul>
+					<li>
+						<a href="#">我的学习</a>
+					</li>
+					<li>
+						<a href="../personal/personal.html"><i class="iconfont icon-ren-"></i>个人中心</a>
+					</li>
+					<li>
+						<a href="../order_management/order_management.html">我的订单</a>
+					</li>
+					<li>
+						<span>客户服务</span>
+						<ul>
+							<li>
+								<a href="#">帮助中心</a>
+							</li>
+							<li>
+								<a href="#">新闻公告</a>
+							</li>
+						</ul>
+					</li>
+					<li>
+						<span>手机新华</span>
+						<div class="phone">
+							<a href="#">
+								<img src="../images/index/phone-001.jpg" alt="" />
+							</a>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+		
+		<!-- 广告 -->
+		<div class="advertisement">
+			<a href="#">
+				<img src="../images/index/advertisement-001.jpg" alt="" />
+			</a>
+		</div>
+		
+		<!-- 新华书店 -->
+		<div class="top-title">
+			<div class="top-title-c w">
+				<a href="../index/index.html">
+					<img src="../images/index/xinhua.png" alt="" />
+				</a>
+				<div class="top-title-mid">
+					<input type="text" class="search-input" id="search" placeholder="国家宝藏" />
+					<div class="search iconfont icon-search"></div>
+					<ul>
+						<li class="title">
+							<span>热门搜索</span>
+						</li>
+						<li>
+							<a href="#">人间草木</a>
+						</li>
+						<li>
+							<a href="#">山海经</a>
+						</li>
+						<li>
+							<a href="#">时间简史</a>
+						</li>
+						<li>
+							<a href="#">我们的身体</a>
+						</li>
+						<li>
+							<a href="#">二十四史</a>
+						</li>
+					</ul>
+				</div>
+				<div class="top-title-right">
+				<a href="../cart/cart.html">
+					<span class="bag iconfont icon-bao"></span>
+					<span class="text">购物车 <span class="product-count"></span> 件</span>
+					<span class="arrow iconfont icon-arrow-right"></span>
+				</a>
+				</div>
+			</div>
+		</div>
+		
+		<!-- 商品分类 -->
+		<div class="menu-wrap">
+			<div class="menu-wrap-c w">
+				<div class="menu-left">
+					<span class="iconfont icon-caidan" ></span>
+					<h3>全部商品分类</h3>
+					<ul class="category-main">
+						
+					</ul>
+				</div>
+				<div class="menu-right">
+					<ul>
+						<li>
+							<a href="#">商城首页</a>
+						</li>
+						<li>
+							<a href="#">人文社科</a>
+						</li>
+						<li>
+							<a href="#">党政专员</a>
+						</li>
+						<li>
+							<a href="#">中版书房</a>
+						</li>
+						<li>
+							<a href="#">童书馆</a>
+						</li>
+						<li>
+							<a href="#">教材教辅</a>
+						</li>
+						<li>
+							<a href="#">新华教育</a>
+						</li>
+						<li>
+							<a href="#">新华优选</a>
+						</li>
+						<li>
+							<a href="#">新华定制</a>
+						</li>
+						<li>
+							<a href="#">电子书</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		
+		<!-- 搜索结果 -->
+		<div class='result w'>
+			<div class="wrap v-middle">
+				
+				<span class="result-title">全部搜索结果</span>
+				<span class="icon-a iconfont icon-arrow-right"></span>
+				<div class="box-a">
+					<select name="select-a" id="select-a">
+						<option value="文学艺术" selected>文学艺术</option>
+						<option value="人文社科" >人文社科</option>
+						<option value="少儿童书">少儿童书</option>
+						<option value="教育考试">教育考试</option>
+						<option value="经济金融">经济金融</option>
+						<option value="生活休闲">生活休闲</option>
+						<option value="科学技术">科学技术</option>
+						<option value="外文原版">外文原版</option>
+						<option value="电子书">电子书</option>
+						<option value="新华定制">新华定制</option>
+					</select>
+				</div>
+				<span class="icon-b iconfont icon-arrow-right"></span>
+				<div class="box-b">
+					<select name="select-b" id="select-b"></select>
+				</div>
+			</div>
+		</div>
+		
+		<!-- 搜索详情 -->
+		<div class= 'result-wrap w'>
+			<div class="result-detail">
+				<ul>
+					<li class="li-a">
+						<span class="kind">分类:</span>
+						<!-- <a class="kind-detail">小说</a> -->
+					</li>
+					<li>
+						<span class="kind">语种:</span>
+						<a class="kind-detail">中文</a>
+					</li>
+					<li class="li-c">
+						<span class="kind">出版时间:</span>
+						<ul class="kind-time"></ul>
+						<span class="spread iconfont icon-arrow-down">展开</span>
+						<span class="mult iconfont icon-add">多选</span>
+					</li>
+					<li>
+						<span class="kind">语言:</span>
+						<a class="kind-detail">汉语</a>
+					</li>
+					<li class="li-e">
+						<span class="kind">作者:</span>
+						<ul class="kind-author"></ul>
+						<span class="spread iconfont icon-arrow-down">展开</span>
+						<span class="mult iconfont icon-add">多选</span>
+					</li>
+				</ul>
+				<div class="more iconfont icon-arrow-down">更多选项</div>
+			</div>
+		</div>
+		
+		<!-- 综合排序 -->
+		<div class="comprehensive w">
+			<div class="comprehensive-top">
+				<ul>
+					<li>
+						<span class="span-com active" data-key='no'>综合排序</span>
+					</li>
+					<li>
+						<span class="span-com asc" data-key='price'>价格<i class="iconfont icon-down"></i><i class="iconfont icon-up"></i></span>
+					</li>
+					<li>
+						<span class="span-com asc" data-key='sale'>销量<i class="iconfont icon-down"></i><i class="iconfont icon-up"></i></span>
+					</li>
+				</ul>
+				
+				<div class="select">
+					<input type="text" placeholder='￥ 请输入' />
+					<span class="symbol">-</span>
+					<input type="text" placeholder='￥ 请输入' />
+					<span class="shai">筛选</span>
+				</div>
+				
+				<div class="big">
+					<span class="iconfont icon-all">大图</span>
+				</div>
+				<div class="small">
+					<span class="iconfont icon-all">小图</span>
+				</div>
+			</div>
+			
+			<div class="comprehensive-bottom">
+				<div class="text-box">
+					<input type="checkbox" />
+					<span>仅显示有货</span>
+				</div>
+				<div class="search-box">
+					<input type="text" placeholder='在结果中搜索'/>
+					<span>搜索</span>
+				</div>
+			</div>
+			
+			<div class='comprehensive-product'>
+				<ul class='list-ul'>
+				</ul>
+			</div>
+		</div>
+		
+		<!-- 页码 -->
+		<div class='pagination w'>
+			<div class="box">
+				<div class="btn">
+					<a href="#" class="iconfont icon-arrow-left"></a>
+					<a href="#">1</a>
+					<a href="#">2</a>
+					<a href="#">3</a>
+					<a href="#">4</a>
+					<a href="#">5</a>
+					<a href="#">...</a>
+					<a href="#" class="last"></a>
+					<a href="#" class="iconfont icon-arrow-right"></a>
+				</div>
+				<input type="text" />
+				<span class="go">Go</span>
+			</div>
+
+		</div>
+		
+		
+		
+		
+		<!-- 新华推荐 -->
+		<div class="recommend-end w">
+			<div class="recommend-top">
+				<span>新华推荐</span>
+			</div>
+			<ul class="public-ul">
+			</ul>
+		</div>
+		
+		<!-- 页脚 -->
+		<div class="footer tonglan">
+			<div class="footer-top w v-middle">
+				<ul>
+					<li><img src="../images/footer/footer-001.jpg" alt=""></li>
+					<li><img src="../images/footer/footer-002.jpg" alt=""></li>
+					<li><img src="../images/footer/footer-003.jpg" alt=""></li>
+					<li><img src="../images/footer/footer-004.jpg" alt=""></li>
+				</ul>
+			</div>
+			<div class="footer-middle w">
+				<ul>
+					<li>
+						<span>购物指南</span>
+						<a href="#" class="mid">购物保障</a>
+						<a href="#">购物流程</a>
+						<a href="#">促销说明</a>
+						<a href="#">联系客服</a>
+					</li>
+					<li>
+						<span>支付方式</span>
+						<a href="#" class="mid">网上支付</a>
+						<a href="#">优惠券支付</a>
+						<a href="#">扫码付款</a>
+					</li>
+					<li>
+						<span>配送方式</span>
+						<a href="#" class="mid">配送方式</a>
+						<a href="#">配送运费</a>
+						<a href="#">商品验收</a>
+						<a href="#">订单说明</a>
+					</li>
+					<li>
+						<span>售后服务</span>
+						<a href="#" class="mid">退换货制度</a>
+						<a href="#">申请退换货</a>
+						<a href="#">退款时效</a>
+					</li>
+					<li>
+						<span>新华服务</span>
+						<a href="#" class="mid">关于我们</a>
+						<a href="#">联系我们</a>
+						<a href="#">大宗采购</a>
+						<a href="#">友情链接</a>
+					</li>
+				</ul>
+			</div>
+			<div class="footer-bottom w">
+				<span class="footer-bottom-top">
+					<a href="#">京公网安备 11010202007572号 丨</a>
+					<a href="#">京ICP证 京B2-20171652号</a>
+				</span>
+				<span class="footer-bottom-mid">
+					<a href="#">出版物经营许可证 新出发 京零字第西160071号 丨</a>
+					<a href="#">广播电视节目制作经营许可证 （京）字第07439号</a>
+				</span>
+				<span class="footer-bottom-bottom">
+					<a href="#">营业执照 丨</a>
+					<a href="#">网络出版服务许可证 （京）字第320号</a>
+				</span>
+				<span class="span-a">Copyright © 2015 - 2020 新华互联电子商务有限责任公司 版权所有</span>
+				<span class="span-b">客服热线：4006666505</span>
+				
+				<div class="footer-end v-middle">
+					<img src="../images/footer/footer-005.jpg" alt="" />
+					<a href="#">网络警察提醒你</a>
+					<img src="../images/footer/footer-006.jpg" alt="" />
+					<a href="#">中国互联网举报中心</a>
+					<img src="../images/footer/footer-007.jpg" alt="" />
+					<a href="#">网络举报下载</a>
+				</div>
+			</div>
+		</div>	
+		
+		<!-- 固定定位 -->
+		<div class="fixed tonglan">
+			<div class="fixed-a w v-middle">
+				<a href="#">
+					<img src="../images/index/advertisement-002.jpg" alt="" />
+				</a>
+				<input type="text" class="search-input" id="search-a" placeholder="国家宝藏" />
+				<div class="search iconfont icon-search"></div>
+			</div>
+		</div>
+		
+		<!-- 回到顶部 -->
+		<div class="nav">
+			<div class="customer-service iconfont icon-customer-service"></div>
+			<div class="return-top iconfont icon-huabanfuben"></div>
+		</div>
+		
+		<script src="../assets/js/jQuery-3.4.0.js"></script>
+		<script src="../assets/js/js-cookie.js"></script>
+		<script src="list.js"></script>
+	</body>
+</html>

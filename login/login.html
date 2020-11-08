@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<link rel="stylesheet" href="../assets/css/reset.css">
+		<link rel="stylesheet" href="../assets/css/public.css">
+		<link rel="stylesheet" href="../font/iconfont.css">
+		<link rel="stylesheet" href="login.css">
+	</head>
+	<body>
+		<!-- 头部 -->
+		<div class="login-top">
+			<div class="wrap w">
+				<a href="../index/index.html">
+					<img src="../images/login/xinhua.png" alt="" />
+				</a>
+				<span>欢迎登录</span>
+			</div>
+		</div>
+		
+		<!-- 中部 -->
+		<div class="login-middle">
+			<div class="background">
+				<img src="../images/login/xh-login1.jpg" alt="" />
+			</div>
+
+			<div class="content">
+				<div class="content-top">
+					<ul>
+						<li class="active">
+							<a href="#">账号登录</a>
+						</li>
+						<li>
+							<a href="#">快捷登录</a>
+						</li>
+					</ul>
+				</div>
+				
+				<div class="content-bottom">
+					<div class="login-pwd login active">
+						<input type="text" class="name" name='name' placeholder="用户名" autocomplete="off"/>
+						<input type="password" class="pwd" name='pwd' placeholder="密码" autocomplete="off"/>
+						<a href="#" class="forget-pwd">忘记密码?</a>
+						<a href="../register/register.html" class="register">免费账号</a>
+						<span class="btn-login-pwd">立即登录</span>
+						<i class="ren iconfont icon-ren-"></i>
+						<i class="mima iconfont icon-mima"></i>
+						<i class="jianpan iconfont icon-weibiaoti1"></i>
+					</div>
+					
+					<div class="login-test login">
+						<input type="text" class="phone" name='phone' placeholder="请输入手机号" autocomplete="off"/>
+						<input type="text" class="picture-test" name='picture-test' placeholder="图片验证码" autocomplete="off" data-val='vibe'/>
+						<div class="image-warpper"><img src="../images/login/test-001.jpg" alt="" /></div>
+						<input type="text" class="test" name='test' placeholder="请输入验证码" autocomplete="off"/>
+						<span class="test-number">获取验证码</span>
+						<input type="checkbox" name="protocol"  class="protocol" checked/>
+						<span>已同意《<a href="#">用户协议</a>》和《<a href="#">隐私政策</a>》</span>
+						<span class="btn-login-phone">立即登录</span>
+						<i class="ren iconfont icon-PhoneMoney"></i>
+						<i class="mima iconfont icon-tupian"></i>
+						<i class="jianpan iconfont icon-hebingxingzhuang"></i>
+					</div>
+					
+					<span class="or">or</span>
+					<div class="icon">
+						<a href="#"><i class="weixin iconfont icon-xiangmulan-weixinhao"></i></a>
+						<a href="#"><i class="qq iconfont icon-qq"></i></a>
+						<a href="#"><i class="weibo iconfont icon-weibo"></i></a>
+					</div>
+					
+				</div>
+				
+			</div>
+		</div>
+		
+		<!-- 页脚 -->
+		<div class="login-footer">
+			<div class="content w">
+				<sapn>Copyright © 2015-2020 新华互联电子商务有限责任公司 版权所有</sapn>
+			</div>
+		</div>
+		
+		
+		<script src="../assets/js/jQuery-3.4.0.js"></script>
+		<script src="../assets/js/public.js"></script>
+		<script src="../assets/js/js-cookie.js"></script>
+		<script src="login.js"></script>
+	</body>
+</html>

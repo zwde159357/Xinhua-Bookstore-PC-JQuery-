@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<link rel="stylesheet" href="../font/iconfont.css">
+		<link rel="stylesheet" href="register.css">
+		<link rel="stylesheet" href="../assets/css/reset.css">
+		<link rel="stylesheet" href="../assets/css/public.css">
+	</head>
+	<body>
+		
+		<!-- 用户注册协议 -->
+		<div class="register-protocol active">
+			<div class="protocol-top">
+				<h2>用户注册协议及隐私政策提示</h2>
+				<i class="iconfont icon-searchclose"></i>
+			</div>
+			<div class="protocol-middle">
+				<h2>用户注册协议及隐私政策提示</h2>
+				<span>在您注册成为我们的用户的过程中，您需要以点击同意的形式在线签署以下协议，请您务必仔细阅读、
+				充分理解协议中的内容后再点击同意。
+				</span>
+				<span>如您不同意以下协议中的部分或全部条款约定，您应立即停止注册程序。当您按照注册流程提示填写信息、
+				阅读并点击同意以下协议，且完成注册之后，即表示您已充分阅读、理解并接受协议的全部内容。如果您对协议内容有任何疑问，
+				请您随时联系我们的客服。
+				</span>
+				<span>由于应用市场审核等原因，上述协议在APP端与在PC端、H5页面等更新时间可能有所差异，给您带来的不便，敬请谅解！</span>
+				<span><a href="#">《用户协议》</a></span>
+				<span><a href="#">《隐私协议》</a></span>
+			</div>
+			<div class="protocol-end">
+				<span class="btn-cancel">取消</span>
+				<span class="btn-agree">同意并继续</span>
+			</div>
+		</div>
+		<div class="curtain active"></div>
+		
+		<!-- 页首 -->
+		<div class="top tonglan">
+			<div class="top-mid w">
+				<div class="top-mid-left v-middle">
+					<span>因疫情影响，北京市物流暂无法保证时效，具体恢复时间待定，给您带来不便敬请谅解！</span>
+					<a href="../login/login.html">请登录</a>
+					<a href="#">免费注册</a>
+				</div>
+				<ul>
+					<li>
+						<a href="#">我的学习</a>
+					</li>
+					<li>
+						<a href="#"><i class="iconfont icon-ren-"></i>个人中心</a>
+					</li>
+					<li>
+						<a href="../order_management/order_management.html">我的订单</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+			
+		<!-- 头部 -->
+		<div class="register-top">
+			<div class="wrap w">
+				<a href="../index/index.html">
+					<img src="../images/login/xinhua.png" alt="" />
+				</a>
+				<span>欢迎注册</span>
+			</div>
+		</div>
+		
+		<div class="register-content w">
+			<div class="register-edit">
+				<form action="" class="register" name="register">
+					<div class="form-item-wrapper">
+						<label for="name">*用户名：</label>
+						<input type="text"  name="name" class="name" placeholder="您的用户名" autocomplete="off" />
+					</div>
+					<div class="form-item-wrapper">
+						<label for="phone">*手机号码：</label>
+						<input type="text"  name="phone" class="phone" placeholder="您的手机号码" autocomplete="off" />
+					</div>
+					<div class="form-item-wrapper">
+						<label for="pwd">*设置密码：</label>
+						<input type="password"  name="pwd" class="pwd" placeholder="您的密码" autocomplete="off" />
+					</div>
+					<div class="form-item-wrapper">
+						<label for="rePwd">*确认密码：</label>
+						<input type="password"  name="rePwd" class="rePwd" placeholder="再次确认您的密码" autocomplete="off" />
+					</div>
+					<div class="form-item-wrapper">
+						<label for="test">*图片验证码：</label>
+						<input type="text"  name="test" class="test" placeholder="图片验证码" autocomplete="off" data-val='qusu'/>
+						<img src="../images/register/register-001.jpg" alt="" />
+					</div>
+					<div class="form-item-wrapper">
+						<label for="test">*短信验证码：</label>
+						<input type="text"  name="test-num" class="test-num" placeholder="短信验证码" autocomplete="off" />
+						<span class="test">获取验证码</span>
+					</div>
+					<div class="form-item-wrapper">
+						<span class="register">立即注册</span>
+					</div>
+				</form>
+			</div>
+		</div>
+		
+		<!-- 页脚 -->
+		<div class="register-footer">
+			<div class="content w">
+				<sapn>Copyright © 2015-2020 新华互联电子商务有限责任公司 版权所有</sapn>
+			</div>
+		</div>
+		
+		<script src="../assets/js/jQuery-3.4.0.js"></script>
+		<script src="../assets/js/public.js"></script>
+		<script src="../assets/js/js-cookie.js"></script>
+		<script src="register.js"></script>
+	</body>
+</html>

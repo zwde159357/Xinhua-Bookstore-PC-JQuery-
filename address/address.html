@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>地址管理</title>
+		<link rel="stylesheet" href="../font/iconfont.css">
+		<link rel="stylesheet" href="../assets/css/public.css">
+		<link rel="stylesheet" href="../assets/css/reset.css">
+		<link rel="stylesheet" href="address.css">
+	</head>
+	<body>
+		
+		<!-- 页头 -->
+		<div class="personal-top tonglan">
+			<div class="top">
+				<div class="top-mid w">
+					<div class="top-mid-left v-middle"></div>
+					<ul>
+						<li>
+							<a href="#">我的学习</a>
+						</li>
+						<li>
+							<a href="../personal/personal.html"><i class="iconfont icon-ren-"></i>个人中心</a>
+						</li>
+						<li>
+							<a href="../order_management/order_management.html">我的订单</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="bottom">
+				<div class="top-title-c w">
+					<a href="../index/index.html">
+						<img src="../images/personal/xinhua.png" alt="" />
+					</a>
+					<ul>
+						<li>
+							<a href="../personal/personal.html">首页</a>
+						</li>
+						<li>
+							<a href="#">账户设置</a>
+						</li>
+						<li>
+							<a href="#">信息</a>
+						</li>
+					</ul>
+					<div class="top-title-mid">
+						<input type="text" class="search-input" id="search" placeholder="国家宝藏" />
+						<div class="search iconfont icon-search"></div>
+					</div>
+					<div class="top-title-right">
+					<a href="../cart/cart.html">
+						<span class="bag iconfont icon-bao"></span>
+						<span class="text">购物车 <span class="product-count"></span> 件</span>
+						<span class="arrow iconfont icon-arrow-right"></span>
+					</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<div class="personal-content w">
+			<div class="nav">
+				<ul>
+					<li>
+						<span>订单管理</span>
+						<ul>
+							<li>订单管理</li>
+							<li>售后管理</li>
+							<li>评价管理</li>
+						</ul>
+					</li>
+					<li>
+						<span>关注中心</span>
+						<ul>
+							<li>我的收藏</li>
+							<li>浏览记录</li>
+							<li>我的学习</li>
+						</ul>
+					</li>
+					<li>
+						<span>账户信息</span>
+						<ul>
+							<li>个人资料</li>
+							<li>我的优惠券</li>
+							<li>我的礼品卡(0)</li>
+							<li>我的银行卡</li>
+							<li class="active">收货地址管理</li>
+							<li>发票信息管理</li>
+							<li>账户安全</li>
+							<li>账号绑定</li>
+							<li>意见反馈</li>
+						</ul>
+					</li>
+					<li>
+						<span>管理帖子</span>
+						<ul>
+							<li>我的帖子</li>
+							<li>我的草稿箱</li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+			
+			<div class="content">
+				<div class='address-top w'>
+					<h3>收货地址</h3>
+				</div>
+				<div class="address-content-wrapper w">
+					<div class="address-content">
+						<span class="btn-add">新建地址</span>
+						<div class="address-empty">
+							<i class="iconfont icon-img-empty-address"></i>
+							<span>您暂未添加地址信息~</span>
+						</div>
+						<div class="address-display">
+							<ul class="address-list"></ul>
+						</div>
+					</div>
+					
+					<div class="address-edit">
+						<div class="address-edit-top">
+							<h2>收货地址</h2>
+							<i class="iconfont icon-searchclose close"></i>
+						</div>
+						<form name="address" action="" class="address">
+							<div class="form-item-wrapper">
+								<label for="receiveName">*收货人：</label>
+								<input type="text" id='receiveName' name='receiveName' placeholder='请输入' autocomplete="off"/>
+								<i class="iconfont icon-searchclose"></i><span>姓名为2-25个字符</label>
+							</div>
+							<div class="form-item-wrapper">
+								<label for="receivePhone">*手机号：</label>
+								<input type="text" id='receivePhone' name='receivePhone' placeholder='请输入' autocomplete="off"/>
+								<i class="iconfont icon-searchclose"></i><span>必填 不得为空</label>
+							</div>
+							<div class="form-item-wrapper">
+								<label for="receiveRegion">收货地址：</label>
+								<select class='region-province' ></select>-
+								<select class='region-city' ></select>-
+								<select class='region-area' ></select>-
+								<select class='region-street' ></select>
+							</div>
+							<div class="form-item-wrapper">
+								<label for="receiveAddress">*详细地址：</label>
+								<input type="text" id='receiveAddress' name='receiveAddress' placeholder='请输入' autocomplete="off"/>
+							</div>
+							<div class="form-item-wrapper end">
+								<input type="hidden" value='1' name='editMode' />  <!-- 用来藏值 1表示新增 0表示修改 -->
+								<input type="hidden" value='' name='id' />
+								<span class="btn-save">确定</span>
+								<span class="btn-close">取消</span>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<div class="curtain"></div>
+		
+		<script src="../assets/js/jQuery-3.4.0.js"></script>
+		<script src="../assets/js/regions.js"></script>
+		<script src="../assets/js/regions_picker.js"></script>
+		<script src="../assets/js/js-cookie.js"></script>
+		<script src="../assets/js/public.js"></script>
+		<script src="address.js"></script>
+	</body>
+</html>

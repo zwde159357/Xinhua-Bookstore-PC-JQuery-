@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<link rel="stylesheet" href="../font/iconfont.css">
+		<link rel="stylesheet" href="../assets/css/reset.css">
+		<link rel="stylesheet" href="../assets/css/public.css">
+		<link rel="stylesheet" href="order_confirm.css">
+	</head>
+	<body>
+		<!-- 页首 -->
+		<div class="top tonglan">
+			<div class="top-mid w">
+				<div class="top-mid-left v-middle"></div>
+				<ul>
+					<li>
+						<a href="#">我的学习</a>
+					</li>
+					<li>
+						<a href="../personal/personal.html"><i class="iconfont icon-ren-"></i>个人中心</a>
+					</li>
+					<li>
+						<a href="../order_management/order_management.html">我的订单</a>
+					</li>
+					<li>
+						<span>客户服务</span>
+						<ul>
+							<li>
+								<a href="#">帮助中心</a>
+							</li>
+							<li>
+								<a href="#">新闻公告</a>
+							</li>
+						</ul>
+					</li>
+					<li>
+						<span>手机新华</span>
+						<div class="phone">
+							<a href="#">
+								<img src="../images/index/phone-001.jpg" alt="" />
+							</a>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+		
+		<!-- 头部 -->
+		<div class="order-top w">
+			<div class="wrap">
+				<a href="../index/index.html">
+					<img src="../images/login/xinhua.png" alt="" />
+				</a>
+				<span>结算订单</span>
+			</div>
+			<div class='schedule'>
+				<div class="one">
+					<span class="num">1</span><br>
+					<span class="message">填写核对订单信息</span>
+				</div>
+				<div class="two">
+					<span class="num">2</span><br>
+					<span class="message">成功提交订单</span>
+				</div>
+				<div class="three">
+					<span class="num">3</span><br>
+					<span class="message">完成支付</span>
+				</div>
+				<span class="first"></span>
+				<span class="second"></span>
+			</div>
+		</div>
+		
+		<!-- 收货信息 -->
+		<div class="consignee w">
+			<div class="consignee-top">
+				<span class="title">收货人信息</span>
+				<a href="#" class="btn-goto-address">新增收货地址</a>
+			</div>
+			<table class="consignee-address">
+				<tbody></tbody>
+			</table>
+		</div>
+		
+		<!-- 确认商品信息 -->
+		<div class="product w">
+			<div class="product-top">
+				<span class="title">商品信息</span>
+				<a href="../cart/cart.html" class="btn-goto-cart">返回购物车修改</a>
+			</div>
+			<table class="product-message">
+				<thead>
+					<tr>
+						<th>商品信息</th>
+						<th>价格(元)</th>
+						<th>数量</th>
+						<th>小计(元)</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr class="title">
+						<td>新华书店网上商城自营图书</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+		
+		<!-- 详细信息 -->
+		<div class="detail-message w">
+			
+			<div class="invoice">
+				<div class="wrapper">
+					<span class="title">发票信息</span>
+					<span class="content">开企业抬头发票须填写纳税人识别号，以免影响报销</span>
+				</div>
+				<div class="wrapper-end">
+					<span class="span-a">不开发票</span>
+					<a href="#">修改</a>
+				</div>
+			</div>
+			
+			<div class="leave-message">
+				<div class="wrapper">
+					<span class="title">给卖家留言</span>
+				</div>
+				<div class="wrapper-end">
+					<input type="text" placeholder="限45字以内,选填,说明您的需求"/>
+				</div>
+			</div>
+			
+			<div class="discount">
+				<span class="title">使用优惠券/礼品卡/积分</span>
+				<div class="discount-detail">
+					<span class="text">使用优惠券抵用</span>
+					<span class="price">￥0.00</span>，
+					<span class="text"> 使用礼品卡0张，抵用</span>
+					<span class="price">￥0.00</span>，
+					<span class="text"> 使用积分0，抵用</span>
+					<span class="price">￥0.00</span>，
+				</div>
+			</div>
+			
+			<div class="summary">
+				<div class="account">
+					<span class="text">
+						<span class="product-count"></span> 件商品，总商品金额：
+					</span>
+					<span class="price"></span>
+				</div>
+				
+				<div class="shop-discount">
+					<span class="text">
+						店铺优惠：
+					</span>
+					<span class="price">￥0.00</span>
+				</div>
+				
+				<div class="merchant-discount">
+					<span class="text">
+						商家优惠：
+					</span>
+					<span class="price">￥0.00</span>
+				</div>
+				
+				<div class="freigt">
+					<span class="text">
+						运费：
+					</span>
+					<span class="price">￥0.00</span>
+				</div>
+				
+				<div class="gift-card">
+					<span class="text">
+						礼品卡：
+					</span>
+					<span class="price">￥0.00</span>
+				</div>
+				
+				<div class="integral">
+					<span class="text">
+						积分：
+					</span>
+					<span class="price">￥0.00</span>
+				</div>
+				
+			</div>
+			
+		</div>
+		
+		<!-- 最后信息 -->
+		<div class="end-message w">
+			<div class="content">
+				<div class="end-price">
+					<span class="text">应付款：</span>
+					<span class="price"></span>
+				</div>
+				<div class="end-address">
+					<div class="address">
+						<span class="text">寄送到：</span>
+						<span class="address"></span>
+					</div>
+					<div class="user-info">
+						<span class="text">收件人：</span>
+						<span class="name"></span>
+						<span class="phone">111</span>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<!-- 提交按钮 -->
+		<div class="generate-order w">
+			<span class="btn-generate-order">提交订单</span>
+		</div>
+		
+		<script src="../assets/js/jQuery-3.4.0.js"></script>
+		<script src="../assets/js/public.js"></script>
+		<script src="../assets/js/js-cookie.js"></script>
+		<script src="order_confirm.js"></script>
+	</body>
+</html>

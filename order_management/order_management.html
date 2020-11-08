@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<link rel="stylesheet" href="../font/iconfont.css" />
+		<link rel="stylesheet" href="order_management.css" />
+		<link rel="stylesheet" href="../assets/css/public.css" />
+		<link rel="stylesheet" href="../assets/css/reset.css" />
+	</head>
+	<body>
+		<!-- 页头 -->
+		<div class="personal-top tonglan">
+			<div class="top">
+				<div class="top-mid w">
+					<div class="top-mid-left v-middle"></div>
+					<ul>
+						<li>
+							<a href="#">我的学习</a>
+						</li>
+						<li>
+							<a href="#"><i class="iconfont icon-ren-"></i>个人中心</a>
+						</li>
+						<li>
+							<a href="../order_management/order_management.html">我的订单</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="bottom">
+				<div class="top-title-c w">
+					<a href="../index/index.html">
+						<img src="../images/personal/xinhua.png" alt="" />
+					</a>
+					<ul>
+						<li>
+							<a href="../personal/personal.html">首页</a>
+						</li>
+						<li>
+							<a href="#">账户设置</a>
+						</li>
+						<li>
+							<a href="#">信息</a>
+						</li>
+					</ul>
+					<div class="top-title-mid">
+						<input type="text" class="search-input" id="search" placeholder="国家宝藏" />
+						<div class="search iconfont icon-search"></div>
+					</div>
+					<div class="top-title-right">
+					<a href="../cart/cart.html">
+						<span class="bag iconfont icon-bao"></span>
+						<span class="text">购物车 <span class="product-count"></span> 件</span>
+						<span class="arrow iconfont icon-arrow-right"></span>
+					</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<div class="personal-content w">
+			<div class="nav">
+				<ul>
+					<li>
+						<span>订单管理</span>
+						<ul>
+							<li class="active">订单管理</li>
+							<li>售后管理</li>
+							<li>评价管理</li>
+						</ul>
+					</li>
+					<li>
+						<span>关注中心</span>
+						<ul>
+							<li>我的收藏</li>
+							<li>浏览记录</li>
+							<li>我的学习</li>
+						</ul>
+					</li>
+					<li>
+						<span>账户信息</span>
+						<ul>
+							<li>个人资料</li>
+							<li>我的优惠券</li>
+							<li>我的礼品卡(0)</li>
+							<li>我的银行卡</li>
+							<li>收货地址管理</li>
+							<li>发票信息管理</li>
+							<li>账户安全</li>
+							<li>账号绑定</li>
+							<li>意见反馈</li>
+						</ul>
+					</li>
+					<li>
+						<span>管理帖子</span>
+						<ul>
+							<li>我的帖子</li>
+							<li>我的草稿箱</li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+			
+			<div class="content">
+				<div class='my-order-top'>
+					<h3>我的订单</h3>
+				</div>
+				
+				<div class="order-title">
+					<ul>
+						<li><a href="#" class="active">所有订单<span></span></a></li>
+						<li><a href="#">待付款<span class="no-pay">0</span></a></li>
+						<li><a href="#">待发货<span class="no-give">0</span></a></li>
+						<li><a href="#">待收货<span class="no-take">0</span></a></li>
+						<li><a href="#">待评价<span class="no-assess">0</span></a></li>
+					</ul>
+					<div class="input-text">
+						<input type="text" placeholder="订单号/商品名称"/>
+						<i class="iconfont icon-search"></i>
+					</div>
+				</div>
+				
+				<div class="order-content active">
+					<div class="order-list">
+						<table>
+							<thead>
+								<tr>
+									<th>商品信息</th>
+									<th>实付款(元)</th>
+									<th>交易状态</th>
+									<th>交易操作</th>
+								</tr>
+							</thead>
+						</table>
+					</div>
+					<div class="order-pagination">
+						<div class="wrapper">
+							<span class="text">共<span class="num"></span>项，每页显示：</span>
+							<span class="per-page">10</span>
+							<span class="icon"><i class="iconfont icon-arrow-down"></i></span>
+							<span class="pagination-left"><i class="iconfont icon-arrow-left"></i></span>
+							<span class="pagination-center">1</span>
+							<span class="pagination-right"><i class="iconfont icon-arrow-right"></i></span>
+						</div>
+					</div>
+				</div>
+				
+				<div class="order-content">
+					<div class="order-list">
+						<table>
+							<thead>
+								<tr>
+									<th>商品信息</th>
+									<th>实付款(元)</th>
+									<th>交易状态</th>
+									<th>交易操作</th>
+								</tr>
+							</thead>
+						</table>
+					</div>
+					<div class="order-pagination">
+						<div class="wrapper">
+							<span class="text">共<span class="num"></span>项，每页显示：</span>
+							<span class="per-page">10</span>
+							<span class="icon"><i class="iconfont icon-arrow-down"></i></span>
+							<span class="pagination-left"><i class="iconfont icon-arrow-left"></i></span>
+							<span class="pagination-center">1</span>
+							<span class="pagination-right"><i class="iconfont icon-arrow-right"></i></span>
+						</div>
+					</div>
+				</div>
+				
+				
+				<div class="order-null">
+					<div class="order-list">
+						<table>
+							<thead>
+								<tr>
+									<th>商品信息</th>
+									<th>实付款(元)</th>
+									<th>交易状态</th>
+									<th>交易操作</th>
+								</tr>
+							</thead>
+						</table>
+						<div class="content-null">
+							<i></i>
+							<span>没有满足条件的订单~</span>
+							<a href="#">去购物<i class="iconfont icon-arrow-right"></i></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="pay">
+			<div class="icon-wrapper">
+				<i class="iconfont icon-searchclose"></i>
+			</div>
+			<ul class="pay-way">
+				<li class="active">
+					<div class="image-wrapper">
+						<img src="../images/pay-001.jpg" alt="" />
+						<div class="i-wrapper"><i class="iconfont icon-duihao"></i></div>
+					</div>
+				</li>
+				<li>
+					<div class="image-wrapper">
+						<img src="../images/pay-002.jpg" alt="" />
+						<div class="i-wrapper"><i class="iconfont icon-duihao"></i></div>
+					</div>
+				</li>
+				<li>
+					<div class="image-wrapper-ex">
+						<img src="../images/pay-003.jpg" alt="" />
+						<span>快捷支付</span>
+						<div class="i-wrapper"><i class="iconfont icon-duihao"></i></div>
+					</div>
+				</li>
+				<li>
+					<div class="image-wrapper-ex">
+						<img src="../images/pay-004.jpg" alt="" />
+						<span>企业网银</span>
+						<div class="i-wrapper"><i class="iconfont icon-duihao"></i></div>
+					</div>
+				</li>
+			</ul>
+			<div class="content-wrapper">
+				<div class="image-wrapper">
+					<img src="../images/code.jpg" alt="" />
+				</div>
+				<div class="end-pay">
+					<span class="text">实付款：</span>
+					<span class="account"></span>
+				</div>
+				<div class="btn-wrapper">
+					<span class="btn-ok">确认支付</span>
+					<span class="btn-cancel">取消</span>
+				</div>
+			</div>
+		</div>
+		<div class="curtain"></div>
+		
+		<script src="../assets/js/jQuery-3.4.0.js"></script>
+		<script src="../assets/js/public.js"></script>
+		<script src="../assets/js/js-cookie.js"></script>
+		<script src="order_management.js"></script>
+	</body>
+</html>

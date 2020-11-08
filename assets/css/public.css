@@ -1,0 +1,216 @@
+/* 项目的公共样式 */
+.tonglan {
+	width: 100%;
+	min-width: 1200px;
+}
+
+.w {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+/*
+ 从外往里进行CSS盒子控制的时候,有用
+使用要求:
+1.使用v-middle的元素高度是有一个具体值的
+2.是v-middle的儿子元素想要居中对齐 
+3.如果v-middle的儿子元素是脱离了文档流的(浮动),则v-middle无效
+*/
+.v-middle {
+	font-size: 0;
+}
+
+.v-middle>* {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.v-middle::after {
+	content: '';
+	height: 100%;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+a {
+	cursor: pointer;
+}
+
+/* 党政精选,限时抢购公共样式 */
+a.public-a {}
+
+a.public-a>img {
+	width: 100%;
+}
+
+ul.public-ul {
+	font-size: 0;
+}
+
+ul.public-ul>li {
+	display: inline-block;
+	width: 16.666666%;
+	box-sizing: border-box;
+	padding: 18px;
+	vertical-align: top;
+}
+
+ul.public-ul>li>a {
+	display: block;
+	border: 1px solid #DDDDDD;
+	position: relative;
+	left: 0;
+	top: 0;
+	transition: all 0.4s ease-out;
+}
+
+ul.public-ul>li>a:hover {
+	top: -4px;
+	box-shadow: 0 0 10px 0 black;
+}
+
+ul.public-ul>li>a>img {
+	width: 100%;
+	height: 160px;
+}
+
+ul.public-ul>li>a>span {}
+
+ul.public-ul>li>a>span.span-text {
+	display: block;
+	height: 32px;
+	font-size: 12px;
+	line-height: 16px;
+	color: #1E1E1E;
+	font-weight: 400;
+	margin-top: 12px;
+	overflow: hidden;
+	display: -webkit-box;
+	-webkit-line-clamp: 2;
+	-webkit-box-orient: vertical;
+}
+
+ul.public-ul>li>a:hover>span.span-text {
+	color: red;
+}
+
+ul.public-ul>li>a>span.span-price {
+	display: inline-block;
+	line-height: 22px;
+	color: #C62E2D;
+	font-size: 14px;
+	margin-top: 10px;
+}
+
+ul.public-ul>li>a>span.span-line {
+	display: inline-block;
+	margin-top: 12px;
+	padding-left: 20px;
+	font-size: 12px;
+	color: #666;
+	text-decoration: line-through;
+}
+
+/* 少儿童书 */
+
+.left {
+	width: 590px;
+	float: left;
+	margin-right: 20px;
+	background-color: white;
+}
+
+.left>a {}
+
+.left>a>img { width: 100%;}
+
+.right {
+	overflow: hidden;
+	background-color: white;
+}
+
+.right>a {}
+
+.right>a>img { width: 100%; }
+
+.public-left {
+	width: 160px;
+	float: left;
+}
+
+.public-left>a {}
+
+.public-left>a>img { width: 100%;}
+
+.public-right {
+	overflow: hidden;
+}
+
+.public-right>ul {
+	font-size: 0;
+}
+
+.public-right>ul>li {
+	display: inline-block;
+	width: 50%;
+	box-sizing: border-box;
+	padding: 0 18px 18px;
+}
+
+
+.public-right>ul>li>a {
+	display: block;
+	border: 1px solid #DDDDDD;
+	position: relative;
+	left: 0;
+	top: 0;
+	transition: all 0.5s ease-out;
+}
+
+.public-right>ul>li>a:hover {
+	top: 4px;
+	box-shadow: 0 0 10px 0 black;
+}
+
+.public-right>ul>li>a>img { 
+	height: 160px;
+}
+
+.public-right>ul>li>a>span {
+	display: block;
+}
+
+.public-right>ul>li>a>span.sp-text {
+	margin: 12px 0 0;
+	height: 32px;
+	font-size: 12px;
+	line-height: 16px;
+	color: #1E1E1E;
+	font-weight: 400;
+}
+
+.public-right>ul>li>a>span.sp-price {
+	display: inline-block;
+	margin: 10px 0 0;
+	height: 22px;
+	line-height: 22px;
+	color: #C62E2D;
+	font-size: 14px;
+}
+
+.public-right>ul>li>a>span.sp-prevprice {
+	display: inline-block;
+	margin-left: 10px;
+	font-size: 12px;
+	color: #666;
+	text-decoration: line-through;
+}
+
+ul.bottom {
+	font-size: 0;
+}
+
+ul.bottom>li {
+	display: inline-block;
+	width: 33.333333%;
+}
